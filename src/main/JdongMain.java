@@ -1,6 +1,5 @@
 package main;
 
-import java.util.Iterator;
 import java.util.List;
 import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.DefaultHttpClient;
@@ -15,8 +14,9 @@ import util.URLFecter;
  *
  */
 public class JdongMain {
-    //log4j的是使用，不会的请看之前写的文章
+	
     public static void main(String[] args) throws Exception {
+    	
         //初始化一个httpclient
         //HttpClient client = new DefaultHttpClient();
         HttpClient client = HttpClientBuilder.create().build();
