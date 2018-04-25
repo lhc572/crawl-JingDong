@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="dependency/c3p0-0.9.1.1.jar"/>
+	<classpathentry kind="lib" path="dependency/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="dependency/commons-dbcp2-2.1.jar"/>
+	<classpathentry kind="lib" path="dependency/commons-dbutils-1.6.jar"/>
+	<classpathentry kind="lib" path="dependency/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="dependency/commons-pool2-2.3.jar"/>
+	<classpathentry kind="lib" path="dependency/fastjson-1.2.5.jar"/>
+	<classpathentry kind="lib" path="dependency/fluent-hc-4.4.1.jar"/>
+	<classpathentry kind="lib" path="dependency/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="dependency/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="dependency/jsoup-1.8.2.jar"/>
+	<classpathentry kind="lib" path="dependency/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="dependency/log4j-api-2.2.jar"/>
+	<classpathentry kind="lib" path="dependency/log4j-core-2.2.jar"/>
+	<classpathentry kind="lib" path="dependency/mysql-connector-java-5.1.35.jar"/>
+	<classpathentry kind="lib" path="dependency/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="dependency/slf4j-log4j12-1.6.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
