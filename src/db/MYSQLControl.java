@@ -38,7 +38,7 @@ public class MYSQLControl {
         }
         
         try {
-        	String sql ="insert into jd_book1 (bookid, bookname, bookprice) values(?,?,?)";
+        	String sql ="insert into jd_book (bookid, bookname, bookprice) values(?,?,?)";
 			qr.batch(sql, params);
 			System.out.println("执行数据库完毕！"+"成功插入数据："+jingdongdata.size()+"条");
 		} catch (SQLException e) {
